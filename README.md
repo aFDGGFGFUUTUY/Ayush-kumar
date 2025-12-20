@@ -97,7 +97,7 @@
 
 ---
 
-⭐ **Focused on building reliable systems, intelligent applications, and scalable ERP solutions** ⭐
+⭐ **Focused on building reliable systems, intelligent applications, and scalable ERP solutions the acheivers does not stop and make sure to be the best you need a best (by ayush kumar)** ⭐
 
 </div>
 
