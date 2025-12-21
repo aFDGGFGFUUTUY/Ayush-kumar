@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creative E-Commerce | NIWE</title>
+
+<style>
+*{box-sizing:border-box;font-family:Poppins,Arial}
+body{margin:0;background:#f1f5f9;overflow-x:hidden}
+
+/* HEADER */
+header{
+  background:linear-gradient(90deg,#111827,#2563eb);
+  color:#fff;padding:15px 30px;
+  display:flex;justify-content:space-between;align-items:center
+}
+nav a{color:#fff;margin:0 12px;text-decoration:none;font-weight:500}
+nav a:hover{text-decoration:underline}
+.cart-btn{background:#10b981;padding:8px 14px;border-radius:20px;cursor:pointer}
+
+/* MAIN */
+.container{padding:30px}
+.hidden{display:none}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px
+}
+.product{
+  background:#fff;border-radius:15px;padding:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+  transform:translateY(20px);opacity:0;
+  animation:fadeUp .8s forwards
+}
+.product img{width:100%;border-radius:12px}
+.product h3{margin:10px 0 5px}
+.product button{
+  margin-top:10px;background:#2563eb;color:#fff;
+  border:none;padding:10px;width:100%;
+  border-radius:20px;cursor:pointer
+}
+.product button:hover{background:#1e40af}
+@keyframes fadeUp{to{transform:translateY(0);opacity:1}}
+
+.box{
+  background:#fff;padding:25px;border-radius:15px;
+  max-width:500px;margin:auto;
+  box-shadow:0 10px 25px rgba(0,0,0,.1)
+}
+
+/* CART */
+.cart{
+  position:fixed;right:-350px;top:0;
+  width:320px;height:100%;
+  background:#fff;padding:20px;
+  box-shadow:-4px 0 20px rgba(0,0,0,.2);
+  transition:.4s;z-index:999
+}
+.cart.active{right:0}
+
+/* CHATBOT */
+#chatbot{
+  position:fixed;bottom:90px;right:20px;
+  width:300px;background:#fff;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,.25);
+  display:none;z-index:1000
+}
+#chatHeader{
+  background:#2563eb;color:#fff;
+  padding:12px;font-weight:600;
+  cursor:pointer;border-radius:15px 15px 0 0
+}
+#chatBody{height:260px;padding:10px;overflow-y:auto;font-size:14px}
+#chatInput{display:flex;border-top:1px solid #ddd}
+#chatInput input{flex:1;border:none;padding:10px;outline:none}
+#chatInput button{
+  background:#2563eb;color:#fff;
+  border:none;padding:10px 15px;cursor:pointer
+}
+.msg{margin:6px 0}
+.bot{color:#2563eb}
+.user{text-align:right;font-weight:500}
+
+/* CHAT BUTTON */
+#chatBtn{
+ position:fixed;
+ bottom:20px;
+ right:20px;
+ background:#2563eb;
+ color:#fff;
+ border:none;
+ width:60px;
+ height:60px;
+ border-radius:50%;
+ font-size:24px;
+ cursor:pointer;
+ z-index:1001;
+ box-shadow:0 10px 25px rgba(0,0,0,.3)
+}
+
+/* FOOTER */
+footer{text-align:center;padding:20px;background:#111827;color:#fff;margin-top:40px}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Creative Store</h2>
+<nav>
+<a href="#" onclick="show('home')">Home</a>
+<a href="#" onclick="show('about')">About</a>
+<a href="#" onclick="show('contact')">Contact</a>
+<a href="#" onclick="show('login')">Login</a>
+</nav>
+<div class="cart-btn" onclick="toggleCart()">Cart 🛒</div>
+</header>
+
+<div class="container">
+
+<div id="home">
+<h2>Featured Products</h2>
+<div class="products">
+<div class="product"><img src="https://via.placeholder.com/300"><h3>Smart Watch Pro</h3><p>₹1999</p><button onclick="addToCart('Smart Watch Pro',1999)">Add to Cart</button></div>
+<div class="product"><img src="https://via.placeholder.com/300"><h3>Wireless Headphones</h3><p>₹2999</p><button onclick="addToCart('Wireless Headphones',2999)">Add to Cart</button></div>
+<div class="product"><img src="https://via.placeholder.com/300"><h3>Gaming Mouse RGB</h3><p>₹1499</p><button onclick="addToCart('Gaming Mouse RGB',1499)">Add to Cart</button></div>
+<div class="product"><img src="https://via.placeholder.com/300"><h3>Mechanical Keyboard</h3><p>₹3499</p><button onclick="addToCart('Mechanical Keyboard',3499)">Add to Cart</button></div>
+</div>
+</div>
+
+<div id="about" class="hidden box">
+<h2>About</h2>
+<p>This is a demo creative e-commerce website with chatbot support.</p>
+</div>
+
+<div id="contact" class="hidden box">
+<h2>Contact</h2>
+<p>Email: ayush77777@gmail.com</p>
+</div>
+
+<div id="login" class="hidden box">
+<h2>Login</h2>
+<input placeholder="Email"><br><br>
+<input type="password" placeholder="Password"><br><br>
+<button onclick="alert('Login Successful (Demo)')">Submit</button>
+</div>
+
+</div>
+
+<div class="cart" id="cart">
+<h2>Your Cart</h2>
+<div id="cartItems"></div>
+<p>Total: ₹<span id="total">0</span></p>
+<button onclick="alert('Checkout Demo')">Checkout</button>
+</div>
+
+<!-- CHATBOT -->
+<div id="chatbot">
+<div id="chatHeader" onclick="toggleChat()">💬 Chat Support</div>
+<div id="chatBody"></div>
+<div id="chatInput">
+<input id="userMsg" placeholder="Type a message..." onkeydown="if(event.key==='Enter')sendMsg()">
+<button onclick="sendMsg()">Send</button>
+</div>
+</div>
+
+<button id="chatBtn" onclick="toggleChat()">💬</button>
+
+<footer>Made by Ayush Kumar</footer>
+
+<script>
+let cart=[],total=0;
+const cartItems=document.getElementById('cartItems');
+const totalEl=document.getElementById('total');
+
+function show(id){
+ document.querySelectorAll('.container>div').forEach(d=>d.classList.add('hidden'));
+ document.getElementById(id).classList.remove('hidden');
+}
+function toggleCart(){document.getElementById('cart').classList.toggle('active')}
+function addToCart(n,p){cart.push({n,p});total+=p;render()}
+function render(){
+ cartItems.innerHTML='';
+ cart.forEach(i=>cartItems.innerHTML+=`<div>${i.n} - ₹${i.p}</div>`);
+ totalEl.innerText=total;
+}
+
+/* CHATBOT LOGIC */
+let open=false;
+const chat=document.getElementById('chatbot');
+const body=document.getElementById('chatBody');
+
+function toggleChat(){
+ open=!open;
+ chat.style.display=open?'block':'none';
+ if(open && body.innerHTML===''){
+  botMsg("Hi 👋 Welcome to Creative Store!");
+  botMsg("You can ask about products, prices, delivery, or contact.");
+ }
+}
+
+function sendMsg(){
+ const input=document.getElementById('userMsg');
+ const text=input.value.trim();
+ if(!text)return;
+ body.innerHTML+=`<div class='msg user'>${text}</div>`;
+ input.value='';
+ reply(text.toLowerCase());
+ body.scrollTop=body.scrollHeight;
+}
+
+function botMsg(t){
+ body.innerHTML+=`<div class='msg bot'>${t}</div>`;
+}
+
+function reply(t){
+ if(t.includes('product')) botMsg("We sell watches, headphones, keyboards & accessories.");
+ else if(t.includes('price')) botMsg("Our prices range from ₹1499 to ₹3499.");
+ else if(t.includes('delivery')) botMsg("Delivery takes 3–5 working days.");
+ else if(t.includes('contact')) botMsg("Contact: ayush77777@gmail.com");
+ else botMsg("Try typing: products, price, delivery, contact");
+}
+
+// auto open after 3 seconds
+setTimeout(()=>toggleChat(),3000);
+</script>
+
+</body>
+</html>
