@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIW Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chatbox {
+            width: 380px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            padding: 15px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+
+        .creator {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .messages {
+            height: 320px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+        .user {
+            color: #1a73e8;
+            margin-bottom: 5px;
+        }
+
+        .bot {
+            color: #188038;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 72%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 24%;
+            padding: 8px;
+            border-radius: 6px;
+            border: none;
+            background: #764ba2;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #5a3e91;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chatbox">
+    <h3>NIW – Personal Chatbot</h3>
+    <div class="creator">This chatbot is made by Ayush</div>
+    <div class="messages" id="messages"></div>
+    <input type="text" id="input" placeholder="Ask NIW something...">
+    <button onclick="send()">Send</button>
+</div>
+
+<script>
+function botReply(msg) {
+    msg = msg.toLowerCase();
+
+    if (msg.includes("hello") || msg.includes("hi")) {
+        return "Hello! I am NIW. How can I help you?";
+    }
+    if (msg.includes("your name")) {
+        return "My name is NIW, your personal chatbot.";
+    }
+    if (msg.includes("who made you") || msg.includes("creator")) {
+        return "This chatbot is made by Ayush.";
+    }
+    if (msg.includes("project")) {
+        return "This chatbot is created as an academic project.";
+    }
+    if (msg.includes("what can you do")) {
+        return "I can answer basic questions and demonstrate chatbot functionality.";
+    }
+    if (msg.includes("technology")) {
+        return "I am built using HTML, CSS, and JavaScript.";
+    }
+    if (msg.includes("help")) {
+        return "Try asking about my name, project, creator, or technology.";
+    }
+    if (msg.includes("bye")) {
+        return "Goodbye! Thanks for chatting with NIW.";
+    }
+    return "Sorry, I don't understand that yet. Please try another question.";
+}
+
+function send() {
+    const input = document.getElementById("input");
+    const messages = document.getElementById("messages");
+
+    const userMsg = input.value;
+    if (!userMsg) return;
+
+    messages.innerHTML += "<div class='user'><b>You:</b> " + userMsg + "</div>";
+    const reply = botReply(userMsg);
+    messages.innerHTML += "<div class='bot'><b>NIW:</b> " + reply + "</div>";
+
+    input.value = "";
+    messages.scrollTop = messages.scrollHeight;
+}
+</script>
+
+</body>
+</html>
