@@ -1,95 +1,73 @@
-<div align="center">
+# Welcome to your Lovable project
 
-# 👋 Ayush Kumar  
-### Full Stack Developer • AI Enthusiast • Odoo ERP Developer  
+## Project info
 
-<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=36BCF7&center=true&vCenter=true&width=650&lines=Building+Smart+Systems;Crafting+Scalable+Web+Applications;Odoo+ERP+Specialist;Problem+Solver+by+Design" />
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-🏅 **Oracle Certified Foundations Associate (AI & Cloud – 2025)**  
-🎓 **Odoo Certified Developer**  
-🏆 **Google Learning Path Achievement**
+## How can I edit this code?
 
-📧 **Ayush2004@gmail.com**
+There are several ways of editing your application.
 
-</div>
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-## 🏅 Certifications & Badges
-<p align="center">
-  ![Oracle Certified Foundations Associate](https://img.shields.io/badge/Oracle-Certified_Foundations_Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+Changes made via Lovable will be committed automatically to this repo.
 
-</p>
+**Use your preferred IDE**
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/assets/certifications/oracle-certificate.png"
-       width="700"
-    
-</p>
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 🎓 Oracle Certified Foundations Associate – AI & Cloud (2025)
+Follow these steps:
 
-<p align="center">
-  ![Oracle Certified Foundations Associate](https://img.shields.io/badge/Oracle-Certified_Foundations_Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-</p>
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-**Issued by:** Oracle University  
-**Certification:** Oracle Cloud Infrastructure 2025 – AI Certified Foundations Associate  
-**Status:** Active & Verified  
+# Step 3: Install the necessary dependencies.
+npm i
 
----
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## 🧠 Professional Skill Set
+**Edit a file directly in GitHub**
 
-![Full Stack Development](https://img.shields.io/badge/Full_Stack_Development-Professional-0F172A?style=for-the-badge&logo=stackblitz&logoColor=white)
-![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-Practical_Applications-2563EB?style=for-the-badge&logo=openai&logoColor=white)
-![System Troubleshooting](https://img.shields.io/badge/System_Troubleshooting-Strong_Fundamentals-334155?style=for-the-badge&logo=linux&logoColor=white)
-![UI/UX Design](https://img.shields.io/badge/UI%2FUX_Design-Clean_%26_Usable-7C3AED?style=for-the-badge&logo=figma&logoColor=white)
-![Odoo ERP](https://img.shields.io/badge/Odoo_ERP-Custom_Module_Development-875A7B?style=for-the-badge&logo=odoo&logoColor=white)
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-## 🛠️ Technology Stack
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-Core_Language-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-Backend-E34F26?style=for-the-badge&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-Problem_Solving-004482?style=for-the-badge&logo=cplusplus&logoColor=white)
+## What technologies are used for this project?
 
-### 🎨 Frontend
-![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-Components-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+This project is built with:
 
-### ⚙️ Backend & ERP
-![Odoo](https://img.shields.io/badge/Odoo-ERP_Development-875A7B?style=for-the-badge&logo=odoo&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-API_Development-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-Clean_APIs-000000?style=for-the-badge&logo=express&logoColor=white)
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-### 🗄 Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Primary_DB-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Relational-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+## How can I deploy this project?
 
----
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-## 🧩 Odoo Module Highlights
+## Can I connect a custom domain to my Lovable project?
 
-- Inventory & Sales Automation  
-- HR & Attendance Management  
-- CRM Pipelines & Dashboards  
-- Python ORM, XML Views & PostgreSQL Optimization  
+Yes, you can!
 
----
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
-
----
-
-⭐ *Focused on building intelligent systems, scalable applications, and enterprise ERP solutions. be the best you need a best (by ayush kumar)* ⭐
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
