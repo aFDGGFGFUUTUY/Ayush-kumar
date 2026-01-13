@@ -99,23 +99,84 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 
 ---
 
-## Professional Highlights
+# 👨‍💻 Professional Profile
+
+## 🚀 Professional Highlights
 
 - Oracle Certified Foundation Associate  
 - Odoo Experienced ERP Developer  
 - Certified Software Developer  
 - Certified ML & AI Engineer  
+- Professional Hackathon Participant with **~80% Winning / Finalist Rate**
 
 ---
 
-## Professional Engagement
+## 🏆 Hackathons & Competitive Achievements
 
-Open to:
+### 🎖️ Professional Hackathon Badges
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Google%20Hackathon-Professional-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AMD%20Hackathon-Professional-ED1C24?style=for-the-badge&logo=amd&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NVIDIA%20Hackathon-Professional-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Meta%20Hackathon-Professional-0467DF?style=for-the-badge&logo=meta&logoColor=white"/>
+</p>
+
+---
+
+### 📊 Hackathon Summary
+
+- **7–8 Professional & Enterprise-Level Hackathons**
+- **~80% Overall Winning / Finalist Percentage**
+- Rankings consistently between **Top 200 – Top 700**
+- Focused on **enterprise-grade, scalable, and production-ready solutions**
+
+---
+
+### 🏅 Notable Hackathons & Rankings
+
+| Organization | Hackathon Type | Ranking |
+|-------------|---------------|--------|
+| Google | Developer Hackathon | 🏆 Top 200 |
+| AMD | Innovation Hackathon | 🏆 Top 5920 |
+| Amazon (AWS) | Builder Challenge | 🏆 Top 90 |
+| Oracle | Cloud & ERP Hackathon | 🏆 Top 150 |
+---
+
+### 🔧 Key Contributions Across Hackathons
+
+- ERP customization & automation (Odoo / Oracle-based systems)
+- Machine Learning & AI model development
+- Cloud-native backend architecture
+- API design & system optimization
+- Clean architecture & professional documentation
+
+---
+
+## 💼 Professional Engagement
+
+**Open to:**
 - Enterprise software development roles  
-- ERP customization and automation projects  
-- Machine learning and AI-based solutions  
+- ERP customization & automation projects  
+- AI / ML-based product development  
 
-Focused on **clean architecture, documentation, and long-term maintainability**.
+**Engineering Focus**
+- Clean Architecture  
+- Scalable & Maintainable Systems  
+- Long-term Product Stability  
+- Clear Technical Documentation  
+
+---
+
+## 🛠️ Technical Focus Areas
+
+- ERP Systems (Odoo, Oracle Ecosystem)
+- Backend Development & Automation
+- Machine Learning & Artificial Intelligence
+- Cloud Platforms (AWS, Azure, Oracle Cloud)
+- Database Design & Performance Optimization
+
+---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00B4D8&height=60&section=footer"/>
