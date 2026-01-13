@@ -140,7 +140,6 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 | Google | Developer Hackathon | 🏆 Top 200 |
 | AMD | Innovation Hackathon | 🏆 Top 5920 |
 | Amazon (AWS) | Builder Challenge | 🏆 Top 90 |
-| Oracle | Cloud & ERP Hackathon | 🏆 Top 150 |
 ---
 
 ### 🔧 Key Contributions Across Hackathons
