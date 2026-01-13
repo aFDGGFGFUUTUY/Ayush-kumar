@@ -1,14 +1,15 @@
 <h1 align="center">Ayush Kumar</h1>
-<h3 align="center">Certified Software Developer | Odoo Experienced Developer | ML & AI Engineer</h3>
+<h3 align="center">
+  Certified Software Developer | Odoo Experienced Developer | ML & AI Engineer
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&color=00B4D8&center=true&vCenter=true&width=850&lines=Certified+Software+Developer;Odoo+Experienced+ERP+Developer;Oracle+Certified+Foundation+Associate;Machine+Learning+%26+AI+Engineer;Enterprise-Grade+Solution+Builder" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=850&lines=Certified+Software+Developer;Odoo+Experienced+ERP+Developer;Oracle+Certified+Foundation+Associate;Machine+Learning+%26+AI+Engineer;Enterprise-Grade+Solution+Builder" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ayushkumar&label=Profile%20Views&color=0aa&style=flat-square" />
-  <img src="https://img.shields.io/badge/Followers-1829-0aa?style=flat-square" />
-  <img src="https://img.shields.io/badge/Stars-18627-0aa?style=flat-square" />
+  <img src="https://img.shields.io/badge/Followers-1857-0aa?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stars-18627-purple?style=for-the-badge" />
 </p>
 
 ---
