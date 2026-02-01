@@ -4,12 +4,12 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=850&lines=Certified+Software+Developer;Odoo+Experienced+ERP+Developer;Oracle+Certified+Foundation+Associate;Machine+Learning+%26+AI+Engineer;Enterprise-Grade+Solution+Builder" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=850&lines=Certified+Software+Developer;Odoo+Experienced+ERP+Developer;Oracle+Certified+Foundation+Associate;Machine+Learning+%26+AI+Engineer;Enterprise-Grade+Solution+Builder;Scalable+Backend+Architect" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Followers-1857-0aa?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Stars-18627-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Followers-1527-0aa?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Stars-19201-purple?style=for-the-badge" />
 </p>
 
 ---
@@ -17,7 +17,7 @@
 ## Professional Summary
 
 I am a **Certified Software Developer** with professional experience in **Odoo ERP development** and **Machine Learning / Artificial Intelligence**.  
-My focus is on building **secure, scalable, and enterprise-ready software solutions** aligned with real-world business requirements.
+My focus is on building **secure, scalable, enterprise-grade software solutions** aligned with real-world business requirements.
 
 **Core credentials:**
 - Oracle Certified Foundation Associate  
@@ -43,20 +43,37 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 
 ### Programming Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,sql" />
+  <img src="https://skillicons.dev/icons?i=python,js,sql,java,c,cpp,csharp,php,go,rust,typescript,bash" />
 </p>
 
 ### Frameworks & Technologies
 <p>
-  <img src="https://skillicons.dev/icons?i=odoo,postgres,tensorflow" />
+  <img src="https://skillicons.dev/icons?i=odoo,django,flask,fastapi,nodejs,react,nextjs,vue,express,tensorflow,pytorch,keras" />
 </p>
 
-### Areas of Expertise
-- Enterprise ERP customization  
-- Odoo CRM, Sales, and Inventory modules  
+### Databases & Cloud
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,sqlite,firebase,aws,azure,gcp,oracle" />
+</p>
+
+### DevOps, Tools & Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,gitlab,linux,nginx,terraform,jenkins,vscode" />
+</p>
+
+---
+
+## Areas of Expertise
+
+- Enterprise ERP customization (Odoo / Oracle)  
+- CRM, Sales, Accounting, Inventory automation  
 - Machine Learning model development  
 - AI-driven automation systems  
-- Secure and optimized backend architecture  
+- Scalable backend architecture  
+- API design & microservices  
+- Secure authentication & RBAC  
+- Performance optimization & caching  
+- Cloud-native application deployment  
 
 ---
 
@@ -68,6 +85,7 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 - Designed and developed custom Odoo modules  
 - Implemented CRM and Sales automation workflows  
 - Optimized database queries and backend logic  
+- Built role-based security & access control  
 - Worked in enterprise ERP environments  
 
 ---
@@ -77,12 +95,15 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 ### Odoo Enterprise ERP Solutions
 - Custom CRM and Sales pipelines  
 - Inventory and Accounting automation  
+- Multi-company ERP customizations  
 - Role-based access control and security modules  
 
 ### Machine Learning & AI Systems
 - Predictive analytics solutions  
 - Intelligent data processing pipelines  
+- Fraud detection & anomaly detection  
 - Model training, evaluation, and deployment  
+- MLOps pipelines & automated retraining  
 
 ---
 
@@ -99,6 +120,14 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 
 ---
 
+## 🧠 GitHub Contributors Graph — All Time
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=ayushkumar&limit=10&theme=transparent&combine_all_yearly_contributions=true" />
+</p>
+
+---
+
 # 👨‍💻 Professional Profile
 
 ## 🚀 Professional Highlights
@@ -107,7 +136,8 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 - Odoo Experienced ERP Developer  
 - Certified Software Developer  
 - Certified ML & AI Engineer  
-- Professional Hackathon Participant with **~80% Winning / Finalist Rate**
+- Professional Hackathon Participant with **~80% Winning / Finalist Rate**  
+- Experience building **enterprise-scale & cloud-native systems**
 
 ---
 
@@ -140,6 +170,7 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 | Google | Developer Hackathon | 🏆 Top 200 |
 | AMD | Innovation Hackathon | 🏆 Top 5920 |
 | Amazon (AWS) | Builder Challenge | 🏆 Top 90 |
+
 ---
 
 ### 🔧 Key Contributions Across Hackathons
@@ -174,9 +205,11 @@ My focus is on building **secure, scalable, and enterprise-ready software soluti
 - Machine Learning & Artificial Intelligence
 - Cloud Platforms (AWS, Azure, Oracle Cloud)
 - Database Design & Performance Optimization
+- Distributed Systems & Microservices  
 
 ---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=00B4D8&height=60&section=footer"/>
 </p>
+
