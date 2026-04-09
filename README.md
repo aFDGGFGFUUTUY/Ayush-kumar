@@ -4,7 +4,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=850&lines=Certified+Software+Developer;Odoo+Experienced+ERP+Developer;Oracle+Certified+Foundation+Associate;Machine+Learning+%26+AI+Engineer;Enterprise-Grade+Solution+Builder;Scalable+Backend+Architect" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=850&lines=Certified+Software+Developer;Odoo+Experienced+ERP+Developer;Oracle+Certified+Foundation+Associate;Web and app+Developer+%26;Enterprise-Grade+Solution+Builder;Scalable+Backend+Architect" />
 </p>
 
 <p align="center">
