@@ -1,6 +1,6 @@
 <h1 align="center">Ayush Kumar</h1>
 <h3 align="center">
-  Certified Software Developer | Odoo Experienced Developer | ML & AI Engineer
+  Certified Software Developer | Odoo Experienced Developer | Web and app Developer
 </h3>
 
 <p align="center">
